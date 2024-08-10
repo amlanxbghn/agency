@@ -19,10 +19,10 @@ export const Navbar = () => {
                             About
                         </a>
                         <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">
-                            Services
+                            Works
                         </a>
                         <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">
-                            Projects
+                            Services
                         </a>
                         <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">
                             Contact
