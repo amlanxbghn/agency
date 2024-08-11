@@ -11,7 +11,16 @@ const config: Config = {
       container: {
         padding: '1rem',
         center: true,
-      }
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0' },
+        },
+      },
+      animation: {
+        blink: 'blink 2s infinite',
+      },
     },
   },
   plugins: [],
