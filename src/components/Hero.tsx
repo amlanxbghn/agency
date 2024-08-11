@@ -12,7 +12,7 @@ export const Hero = () => {
                     Crafting Next-Gen Landing Pages for Early-Stage Startups
                 </h1>
                 <p className="text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E] mt-5 max-w-[720px] mx-auto">
-                    Effortlessly Transform Your Ideas into Fully Functional Websites for 1/3 the Cost and get 3x Conversions.
+                    Effortlessly Transform Your Ideas into Fully Functional Websites for 1/3 of the Cost and get 3x Conversions.
                 </p>
                 <div className="flex justify-center mt-8">
                     <button className="text-xl bg-black text-white py-3 px-5 rounded-lg font-medium shadow-lg">Book a call</button>

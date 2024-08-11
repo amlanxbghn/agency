@@ -3,6 +3,7 @@ import { Hero } from "../components/Hero";
 import { Navbar } from "../components/Navbar";
 import { LogoTicker } from "../components/LogoTicker";
 import { WorkFlow } from "../components/WorkFlow";
+import { Pricing } from "../components/Pricing";
 import { FAQs } from "../components/FAQs";
 import { CallToAction } from "../components/CallToAction";
 import { Footer } from "../components/Footer";
@@ -15,6 +16,7 @@ export default function Home() {
     <Hero/>
     <LogoTicker/>
     <WorkFlow/>
+    <Pricing/>
     <FAQs/>
     <CallToAction/>
     <Footer/>

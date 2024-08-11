@@ -27,7 +27,7 @@ export const WorkFlow = () => {
                         From Concept to Conversion: Our Three-Step Process to Bring Your Vision to Life and Elevate Your Business
                     </p>
                 </div>
-                <div className="mt-16 flex flex-col sm:flex-row gap-4">
+                <div className="mt-16 flex flex-col sm:flex-row gap-4 max-w-[950px] mx-auto">
                     {workflow.map(({title, description}) => (
                         <div 
                             key={title} 
