@@ -4,6 +4,7 @@ import { Navbar } from "../components/Navbar";
 import { LogoTicker } from "../components/LogoTicker";
 import { FAQs } from "../components/FAQs";
 import { Footer } from "../components/Footer";
+import { CallToAction } from "../components/CallToAction";
 
 export default function Home() {
   return(
@@ -13,6 +14,7 @@ export default function Home() {
     <Hero/>
     <LogoTicker/>
     <FAQs/>
+    <CallToAction/>
     <Footer/>
   </>
   );
