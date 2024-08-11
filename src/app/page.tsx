@@ -2,6 +2,7 @@ import { Banner } from "../components/Banner";
 import { Hero } from "../components/Hero";
 import { Navbar } from "../components/Navbar";
 import { LogoTicker } from "../components/LogoTicker";
+import { WorkShowcase } from "../components/WorkShowcase";
 import { WorkFlow } from "../components/WorkFlow";
 import { Testimonials } from "../components/Testimonials";
 import { Pricing } from "../components/Pricing";
@@ -16,6 +17,7 @@ export default function Home() {
     <Navbar/>
     <Hero/>
     <LogoTicker/>
+    <WorkShowcase/>
     <WorkFlow/>
     <Testimonials/>
     <Pricing/>

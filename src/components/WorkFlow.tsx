@@ -19,15 +19,15 @@ export const WorkFlow = () => {
     return(
         <div className="py-[72px] sm:py-24">
             <div className="container">
-                <h2 className='text-center font-bold text-5xl sm:text-6xl tracking-tighter'>
+                <h2 className='text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text'>
                     Streamlined Workflow
                 </h2>
                 <div className='max-w-xl mx-auto'>
-                    <p className='text-center mt-5 text-xl text-black/70'>
+                    <p className='text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E] mt-5'>
                         From Concept to Conversion: Our Three-Step Process to Bring Your Vision to Life and Elevate Your Business
                     </p>
                 </div>
-                <div className="mt-16 flex flex-col sm:flex-row gap-4 max-w-[950px] mx-auto">
+                <div className="mt-16 flex flex-col sm:flex-row gap-4">
                     {workflow.map(({title, description}) => (
                         <div 
                             key={title} 

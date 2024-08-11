@@ -55,7 +55,7 @@ export const FAQs = () => {
     return (
         <div className='py-[72px] sm:py-24'>
             <div className="container">
-                <h2 className='text-center text-5xl sm:text-6xl sm:max-w-[648px] mx-auto font-bold tracking-tighter'>
+                <h2 className='text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text'>
                     Frequently asked questions
                 </h2>
                 <div className='mt-12 max-w-[648px] mx-auto'>
