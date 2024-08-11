@@ -1,20 +1,31 @@
+import { url } from 'inspector';
+import gridLines from '../assets/images/grid-lines.png';
+
 export const CallToAction = () => {
     return (
-        <div className="py-[72px] sm:py-24 text-center">
+        <section className="py-20 md:py-24">
             <div className="container">
-                <h2 className="font-bold text-5xl tracking-tighter sm:text-6xl">
-                    Start building with us
-                </h2>
-                <p className="tex-xl text-black/70 mt-5">
-                    Empower your growth with a website crafted to elevate your brand and drive success.
-                </p>
-                <form className="mt-10 flex flex-col gap-2.5 max-w-sm mx-auto sm:flex-row">
-                    <input type="email" placeholder="your@email.com" className="h-12 bg-black/10 rounded-lg px-5 font-md placeholder:text-black/45"/>
-                    <button className="bg-black text-white h-12 rounded-lg px-5">
-                        Book a call
-                    </button>
-                </form>
+                <div className="border border-[#F1F1F1] py-24 rounded-3xl shadow-[0_7px_14px_#EAEAEA] overflow-hidden relative">
+                    <div className="absolute inset-0 bg-[#D2DCFF] bg-blend-overlay [mask-image:radial-gradient(50%_50%_at_50%_35%,white,transparent)]"
+                    style={{
+                        backgroundImage: `url(${gridLines.src})`,
+                    }}>
+                    </div>
+                    <div className="relative">
+                        <h2 className="text-center font-bold text-5xl md:text-6xl tracking-tighter">
+                            Start building with us
+                        </h2>
+                        <p className="text-center text-lg md:text-xl max-w-lg mx-auto text-black/70 px-4 mt-5 tracking-tight">
+                            Empower your growth with a website crafted to elevate your brand and drive success.
+                        </p>
+                        <div className="flex justify-center mt-8">
+                            <button className="bg-black text-white h-12 rounded-lg px-5">
+                                Book a call
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     );
 }
