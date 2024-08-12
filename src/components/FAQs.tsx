@@ -7,19 +7,23 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const items = [
     {
+        question: "What does the entire process look like from start to finish?",
+        answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe laborum odio est suscipit corrupti voluptatibus repellat, minus quae accusantium consectetur incidunt neque ducimus.",
+    },
+    {
+        question: "How soon can I expect my project to be completed?",
+        answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolore, esse sequi voluptatum ad minima doloremque vel distinctio mollitia, veniam voluptas error magni.",
+    },
+    {
         question: "What payment methods do you accept?",
         answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, natus! Voluptas assumenda vel, similique iure dolor incidunt. Laborum, earum adipisci.",
     },
     {
-        question: "How does the pricing work for team?",
-        answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolore, esse sequi voluptatum ad minima doloremque vel distinctio mollitia, veniam voluptas error magni.",
-    },
-    {
-        question: "Can I change my plan later?",
+        question: "What if I need changes after the project is completed?",
         answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. A deleniti culpa aspernatur nam quas cum?",
     },
     {
-        question: "Is my data secure?",
+        question: "Do you offer support or training after the website is live?",
         answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus beatae, facere, veritatis natus esse tempora necessitatibus eius dignissimos temporibus, libero eveniet! In accusamus quas id!",
     }
 ];
@@ -37,7 +41,7 @@ const AccordionItem = ({
         onClick={() => setIsOpen(!isOpen)}>
             <div className='flex items-center'
         >
-                <span className='flex-1 text-lg font-bold'>{question}</span>
+                <span className='flex-1 text-lg font-bold text-black/80'>{question}</span>
                 {isOpen ? <MinusIcon/> : <PlusIcon />}
                 
             </div>
@@ -59,6 +63,7 @@ const AccordionItem = ({
                         height: 0,
                         marginTop: 0,
                     }}
+                    className='text-black/70'
                 >
                     {answer}
                 </motion.div>
