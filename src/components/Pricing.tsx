@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 
 const pricingTiers = [
     {
-        title: "Free",
-        monthlyPrice: 0,
-        buttonText: "get started for free",
+        title: "Single-Page",
+        monthlyPrice: 299,
+        buttonText: "Book a call",
         popular: false,
         inverse: false,
         features: [
@@ -19,9 +19,9 @@ const pricingTiers = [
         ],
     },
     {
-        title: "Pro",
-        monthlyPrice: 9,
-        buttonText: "Sign up now",
+        title: "Multi-Page",
+        monthlyPrice: 499,
+        buttonText: "Book a call",
         popular: true,
         inverse: true,
         features: [
@@ -35,9 +35,9 @@ const pricingTiers = [
         ],
     },
     {
-        title: "Business",
-        monthlyPrice: 19,
-        buttonText: "Sign up now",
+        title: "Hire us",
+        monthlyPrice: 1499,
+        buttonText: "Contact Us",
         popular: false,
         inverse: false,
         features: [
@@ -48,7 +48,7 @@ const pricingTiers = [
             "Dedicated account manager",
             "Custom fields",
             "Advanced analytics",
-            "Export capabilities",
+            "Unlimited Revisions",
             "API access",
             "Advanced security features",
         ],
@@ -97,14 +97,14 @@ export const Pricing = () => {
                                             repeatType: 'loop',
                                         }}
                                         className='bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF)] [background-size:200%] text-transparent bg-clip-text font-md'>
-                                            Popular
+                                            Most Popular
                                     </motion.span>
                                 </div>
                             )}
                         </div>
                         <div className='flex items-baseline gap-1 mt-[30px]'>
                             <span className='text-4xl font-bold tracking-tighter leading-none'>${monthlyPrice}</span>
-                            <span className='teacking-tight font-bold text-black/50'>/month</span>
+                            <span className={twMerge('tracking-tight font-bold', inverse === true ? "text-white/60" : "text-black/50")}>/month</span>
                         </div>
                         <button className={twMerge(
                             'px-4 py-2 rounded-lg font-medium inline-flex items-center justify center tracking-tight bg-black text-white w-full mt-[30px]',
