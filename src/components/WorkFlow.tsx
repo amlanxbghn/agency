@@ -23,7 +23,7 @@ export const WorkFlow = () => {
                     Streamlined Workflow
                 </h2>
                 <div className='max-w-xl mx-auto'>
-                    <p className='text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E] mt-5'>
+                    <p className='text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E]/75 mt-5'>
                         From Concept to Conversion: Our Three-Step Process to Bring Your Vision to Life and Elevate Your Business
                     </p>
                 </div>

@@ -19,7 +19,7 @@ export const Hero = () => {
                     />
                 </div>
 
-                <p className="text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E] mt-5 max-w-[750px] mx-auto">
+                <p className="text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E]/75 mt-5 max-w-[750px] mx-auto">
                     Helping Founders and Early-Stage Startups build Fully Responsive Landing Pages for 1/3 of the Cost to get 3x More Conversions.
                 </p>
                 <div className="flex justify-center mt-8">

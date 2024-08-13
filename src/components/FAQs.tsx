@@ -41,7 +41,7 @@ const AccordionItem = ({
         onClick={() => setIsOpen(!isOpen)}>
             <div className='flex items-center'
         >
-                <span className='flex-1 text-lg font-bold text-black/80'>{question}</span>
+                <span className='flex-1 text-lg font-bold text-[#010D3E]'>{question}</span>
                 {isOpen ? <MinusIcon/> : <PlusIcon />}
                 
             </div>
@@ -63,7 +63,7 @@ const AccordionItem = ({
                         height: 0,
                         marginTop: 0,
                     }}
-                    className='text-black/70'
+                    className='text-[#010D3E]/75'
                 >
                     {answer}
                 </motion.div>

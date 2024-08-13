@@ -6,7 +6,7 @@ export const Features = () => {
                     What We Offer
                 </h2>
                 <div className="max-w-xl mx-auto">
-                    <p className="text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E] mt-5">
+                    <p className="text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E]/75 mt-5">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quia nihil modi!                        
                     </p>
                 </div>
