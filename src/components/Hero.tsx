@@ -1,3 +1,4 @@
+import { MdCallMade } from "react-icons/md";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 export const Hero = () => {
@@ -23,7 +24,7 @@ export const Hero = () => {
                     Helping Founders and Early-Stage Startups build Fully Functional Responsive Websites for 1/3 of the Cost and get 3x More Conversions.
                 </p>
                 <div className="flex justify-center mt-8">
-                    <button className="text-xl bg-black text-white py-3 px-5 rounded-lg font-medium shadow-lg">Book a call</button>
+                    <button className="inline flex items-center text-xl bg-black text-white py-3 px-5 rounded-lg font-medium shadow-lg">Book a call &nbsp;<MdCallMade/> </button>
                 </div>
             </div>
         </div>
