@@ -113,7 +113,7 @@ export const Testimonials = () => {
             <div className="container">
                 <div className="max-w-[540px] mx-auto">
                     <div className="flex justify-center">
-                        <div className="text-lg inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">
+                        <div className="text-lg inline-flex border border-[#0000FF]/20 px-3 py-1 rounded-lg tracking-tight">
                             Testimonials
                         </div>
                     </div>

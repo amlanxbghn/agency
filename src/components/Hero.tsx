@@ -6,8 +6,7 @@ export const Hero = () => {
         <div className="py-24">
             <div className="container">
                 <div className="flex justify-center">
-                    <div className="text-lg inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">
-                        <span className="text-green-500 animate-blink">●&nbsp;</span>
+                    <div className="text-lg inline-flex border border-[#0000FF]/20 px-3 py-1 rounded-lg tracking-tight">
                         We are open to work
                     </div>
                 </div>
@@ -21,10 +20,12 @@ export const Hero = () => {
                 </div>
 
                 <p className="text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E] mt-5 max-w-[750px] mx-auto">
-                    Helping Founders and Early-Stage Startups build Fully Functional Responsive Websites for 1/3 of the Cost and get 3x More Conversions.
+                    Helping Founders and Early-Stage Startups build Fully Responsive Landing Pages for 1/3 of the Cost to get 3x More Conversions.
                 </p>
                 <div className="flex justify-center mt-8">
-                    <button className="inline flex items-center text-xl bg-black text-white py-3 px-5 rounded-lg font-medium shadow-lg">Book a call &nbsp;<MdCallMade/> </button>
+                    <button className="inline flex items-center text-xl bg-black text-white py-3 px-5 rounded-lg font-medium shadow-lg">
+                        Book a call &nbsp;<MdCallMade/> 
+                    </button>
                 </div>
             </div>
         </div>

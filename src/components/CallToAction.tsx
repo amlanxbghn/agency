@@ -16,7 +16,7 @@ export const CallToAction = () => {
                             Start building with us
                         </h2>
                         <p className="text-center text-lg md:text-xl max-w-lg mx-auto text-black/70 px-4 mt-5 tracking-tight">
-                            Empower your growth with a website crafted to elevate your brand and drive success.
+                            Empower your growth with a website crafted to take your digital presence to the next level.
                         </p>
                         <div className="flex justify-center mt-8">
                             <button className="bg-black text-white h-12 rounded-lg px-5">
